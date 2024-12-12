@@ -17,10 +17,10 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Scanner;
 
-class JeuDame {
-    private Plateau plateau = new Plateau(); // Plateau de 8x8
-    private Scanner scanner = new Scanner(System.in);
-    private String saveFile = "save.txt";
+public class JeuDame {
+    public Plateau plateau = new Plateau(); // Plateau de 8x8
+    public Scanner scanner = new Scanner(System.in);
+    public String saveFile = "save.txt";
     
     public JeuDame(){
         plateau = new Plateau(); // Plateau de 8x8
