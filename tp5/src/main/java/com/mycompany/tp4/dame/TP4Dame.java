@@ -17,6 +17,7 @@ public class TP4Dame {
         m = 10 + 7;
         System.out.println(m);
         // CECI NEST PAS UN TEST
+        // CECI EN REVANCHE
         // ceci est une _ieme test
         //ceci est un 3eme test
         //ceci est un 4eme test
