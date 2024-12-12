@@ -13,5 +13,6 @@ public class TP4Dame {
     public static void main(String[] args) {
         JeuDame partie = new JeuDame();
         partie.demarrerPartie();
+        // CECI NEST PAS UN TEST
     }
 }
