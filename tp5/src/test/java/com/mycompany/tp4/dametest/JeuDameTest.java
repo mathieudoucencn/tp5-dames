@@ -2,7 +2,10 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/UnitTests/JUnit5TestClass.java to edit this template
  */
-package com.mycompany.tp4.dame;
+package com.mycompany.tp4.dametest;
+import com.mycompany.tp4.dame.JeuDame;
+import com.mycompany.tp4.dame.Plateau;
+import com.mycompany.tp4.dame.TP4Dame;
 
 import java.io.IOException;
 import org.junit.jupiter.api.AfterEach;
@@ -77,7 +80,7 @@ public class JeuDameTest {
             {'.','B','.', 'B', '.', 'B', '.', 'B'},  
             {'B','.', 'B', '.', 'B', '.', 'B', '.'}   
         };
-        Plateau p = Plateau(plateauInit);
+        Plateau p = new Plateau(plateauInit);
         instance.setPlateau(p);
         Boolean expResult = false;
         Boolean result = instance.jeuFini();
@@ -93,7 +96,7 @@ public class JeuDameTest {
             {'.','B','.', 'B', '.', 'B', '.', 'B'},  
             {'B','.', 'B', '.', 'B', '.', 'B', '.'}   
         };
-        Plateau p2 = Plateau(plateau2);
+        Plateau p2 = new Plateau(plateau2);
         instance.setPlateau(p2);
         Boolean expResult2 = true;
         Boolean result2 = instance.jeuFini();
@@ -109,7 +112,7 @@ public class JeuDameTest {
             {'.', '.', '.', '.', '.', '.', '.', '.'},  
             {'.', '.', '.', '.', '.', '.', '.', '.'}  
         };
-        Plateau p3 = Plateau(plateau3);
+        Plateau p3 = new Plateau(plateau3);
         instance.setPlateau(p3);
         Boolean expResult3 = true;
         Boolean result3 = instance.jeuFini();
