@@ -14,5 +14,6 @@ public class TP4Dame {
         JeuDame partie = new JeuDame();
         partie.demarrerPartie();
         // CECI NEST PAS UN TEST
+        // ceci est une _ieme test
     }
 }
